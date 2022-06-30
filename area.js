@@ -18,3 +18,10 @@ function calculateArea() {
     let areaT = (base * height) / 2;
     document.getElementById("areaT").value = areaT;
   }
+
+function calculateCircumference() {
+  let radii = document.getElementById("radii").value;
+  let circumference = 3.142 * radii * 2;
+  document.getElementById("circumference").value = circumference;
+
+}
