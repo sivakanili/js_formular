@@ -8,7 +8,7 @@ h1 {
 h2 {
     color: rgb(141, 7, 7);
     font-family: 'Trebuchet MS';
-    text-align:initial;
+    text-align:center;
 }
 
 .aRec {
@@ -17,10 +17,11 @@ h2 {
     height: 210px;
     width: 420px;
     text-align: center;
-    float: left;
+    float:left;
     margin-right: 10px;
     margin-left: 50px; 
     border-style: outset;
+    margin-top: 150px;
 
 }
 .aRec:hover {
@@ -42,21 +43,26 @@ background-color: rgb(245, 237, 237);
     height: 400px;
     text-align: center;
     border-top:  1px solid red;
-    float: right;
+    float: left;
+    margin-top: 50px;
     } 
 
 .aCirc:hover {
     background-color: rgb(253, 255, 127);
 }
 
-.triangle-down {
-    width: 50;
-	height: 50;
-	border-left: 25px solid transparent;
-	border-right: 25px solid transparent;
-	border-bottom: 50px solid rgb(238, 59, 59);
+.triangle-up {
+    width: 100;
+	height: 100;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 100px solid rgb(238, 59, 59);
+    margin-top: 100px;
     display: inline-block;
     text-align: center;
-    float: inline-end;
+    float: left;
     
+}
+.triangle-up:hover {
+    background-color:rgb(3, 148, 148);
 }
