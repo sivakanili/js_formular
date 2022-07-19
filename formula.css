@@ -66,3 +66,7 @@ background-color: rgb(245, 237, 237);
 .triangle-up:hover {
     background-color:rgb(3, 148, 148);
 }
+
+body {
+    background-color: rgb(240, 245, 247);
+}
